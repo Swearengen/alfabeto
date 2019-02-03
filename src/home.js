@@ -18,7 +18,7 @@ class Home extends React.Component {
 					<div className="collapse navbar-collapse" id="mainmenu">
 						<ul className="navbar-nav ml-auto" id="mymenu">
 							<li className="nav-item ">
-								<a className="nav-link" href="#home" >Početna</a>
+								<a className="nav-link" href="#home" >Početnaa</a>
 							</li>
 							<li className="nav-item">
 								<a className="nav-link" href="#feature">Usluge</a>
