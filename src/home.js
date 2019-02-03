@@ -1,17 +1,6 @@
 import React from 'react';
-import About from './components/about';
 import Feature from './components/feature';
-import Work from './components/work';
-import ScreenShot from './components/screenshot';
-import Team from './components/team';
-import Blog from './components/blog';
-import Price from './components/price';
-import Testimonial from './components/testimonial';
-import FAQ from './components/faq';
 import Contact from './components/contact';
-import Subscribe from './components/subscribe';
-import Footer from './components/footer';
-import { Link } from 'react-router-dom';
 
 class Home extends React.Component {
   render() {
@@ -31,47 +20,11 @@ class Home extends React.Component {
 								<a className="nav-link" href="#home" >Home</a>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link" href="#about" >about</a>
-							</li>
-							<li className="nav-item">
 								<a className="nav-link" href="#feature" >feature</a>
 							</li>
 
 							<li className="nav-item">
-								<a className="nav-link" href="#screenshots" >screenshot</a>
-							</li>
-
-							<li className="nav-item">
-								<a className="nav-link" href="#team">team</a>
-							</li>
-							<li className="nav-item dropdown">
-								<a href="#news" className="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
-								<ul className="dropdown-menu">
-									<li className="nav-item"><Link className="nav-link" to={`${process.env.PUBLIC_URL}/blog-list`} >blog list</Link></li>
-									<li className="nav-item"><Link className="nav-link" to={`${process.env.PUBLIC_URL}/blog-details`} >blog details</Link></li>
-									<li className="nav-item"><Link className="nav-link" to={`${process.env.PUBLIC_URL}/blog-leftside`} >leftsidebar</Link></li>
-									<li className="nav-item"><Link className="nav-link" to={`${process.env.PUBLIC_URL}/blog-rightside`} >rightsidebar</Link></li>
-									<li className="nav-item"><Link className="nav-link" to={`${process.env.PUBLIC_URL}/blog-left-sidebar`} >details leftsidebar</Link></li>
-									<li className="nav-item"><Link className="nav-link" to={`${process.env.PUBLIC_URL}/blog-right-sidebar`} >details rightsidebar</Link></li>
-								</ul>
-							</li>
-							<li className="nav-item">
 								<a className="nav-link" href="#contact">contact us</a>
-							</li>
-							<li className="nav-item dropdown">
-								<a className="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Other Page</a>
-								<ul className="dropdown-menu">
-									<li className="nav-item"><Link className="nav-link" to={`${process.env.PUBLIC_URL}/sign-in`}>Sign In</Link></li>
-									<li className="nav-item"><Link className="nav-link" to={`${process.env.PUBLIC_URL}/sign-up`}>Sign Up</Link></li>
-									<li className="nav-item"><Link className="nav-link" to={`${process.env.PUBLIC_URL}/forget-password`}>Forget Password</Link></li>
-									<li className="nav-item"><Link className="nav-link" to={`${process.env.PUBLIC_URL}/thank-you`}>Thank You</Link></li>
-									<li className="nav-item"><Link className="nav-link" to={`${process.env.PUBLIC_URL}/review`}>Review</Link></li>
-									<li className="nav-item"><Link className="nav-link" to={`${process.env.PUBLIC_URL}/faq`}>FAQ</Link></li>
-									<li className="nav-item"><Link className="nav-link" to={`${process.env.PUBLIC_URL}/coming-soon`}>Coming Soon</Link></li>
-									<li className="nav-item"><Link className="nav-link" to={`${process.env.PUBLIC_URL}/download`}>Download</Link></li>
-									<li className="nav-item"><Link className="nav-link" to={`${process.env.PUBLIC_URL}/request`}>Request Demo</Link></li>
-									<li className="nav-item"><Link className="nav-link" to={`${process.env.PUBLIC_URL}/404`}>404</Link></li>
-								</ul>
 							</li>
 						</ul>
 					</div>
@@ -130,68 +83,11 @@ class Home extends React.Component {
 			</section>
   			{/* Home One Section End */}
 
-			{/* About Component*/}
-			<About />
-
 			{/*Feature Component*/}
 			<Feature />
 
-			{/*Work Component*/}
-			<Work />
-
-			{/*ScreenShot Component*/}
-			<ScreenShot />
-
-			{/*Team Component*/}
-			<Team />
-
-			{/*Price Component*/}
-			<Price />
-			
-			{/*Testimonial Component*/}
-			<Testimonial />
-
-			{/*Faq Component*/}
-			<FAQ />
-
-			{/*Blog Component*/}
-			<Blog />
-			
-			{/*download section*/}
-			<section className="download-bg">
-			   <div className="container">
-			      <div className="row">
-			         <div className="col-xl-3 display-flex">
-			            <div className="footer-logo">
-			               <img src="assets/images/footer-logo.png" alt="footer-logo" className="img-fluid"/>
-			            </div>
-			         </div>
-			         <div className="col-xl-5 display-flex">
-			            <div className="download-text">
-			               <h3>Download the Chatloop app and enjoy it</h3>
-			            </div>
-			         </div>
-			         <div className="col-xl-4 display-flex">
-			            <div className="download-img">
-			               <ul>
-			                  <li><img src="assets/images/app1.png" alt="foot-app" className="img-fluid"  data-tilt data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8"/></li>
-			                  <li><img src="assets/images/app2.png" alt="foot-app1" className="img-fluid"  data-tilt data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8"/></li>
-			               </ul>
-			            </div>
-			         </div>
-			      </div>
-			   </div>
-			</section>
-			{/*end download section*/}
-
 			{/*Contact Component*/}
 			<Contact />
-
-			{/*Subscription Component*/}
-			<Subscribe />
-
-			{/*Footer Component*/}
-			<Footer />
 
 			{/*tap-top*/}
 			<div className="tap-top">
