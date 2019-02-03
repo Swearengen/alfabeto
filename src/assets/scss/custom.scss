@@ -1,0 +1,15 @@
+.intro-image {
+    background-image: url(./assets/images/intro.jpg);
+    background-size: cover;
+    position: absolute;
+    height: 100vh;
+    right: 0;
+    left: 0;
+    padding-top: 30px;
+    text-align: center;
+
+    h1, h3 {
+        color: $primary_color;
+        margin: 0;
+    }
+}

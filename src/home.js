@@ -38,48 +38,13 @@ class Home extends React.Component {
 					<i></i>
 					<i></i>
 				</div>
-				<div className="container">
-					<div className="row">
-						<div className="col-md-6">
-							<div className="d-flex-1">
-								<div className="slide-text">
-									<div>
-										<h1>The best way to connect with your friend is with
-		  <br/><span className="main-title">ChatLoop!</span>
-										</h1>
-										<h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </h4>
-										<div className="slid-btn">
-											<a href=""><img src="assets/images/app1.png" alt="app1" className="img-fluid" data-tilt data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8"/></a>
-											<a href=""><img src="assets/images/app2.png" alt="app2" className="img-fluid" data-tilt data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8"/></a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div className="col-md-6">
-							<div className="home-right">
-								<div className="mobile-slid">
-									<img src="assets/images/top-mobile.png" alt="top1" className="img-fluid"/>
-								</div>
-								<div className="profile-msg">
-									<img src="assets/images/top2.png" alt="top2" className="img-fluid" />
-								</div>
-								<div className="awesome">
-									<img src="assets/images/top3.png" alt="top3" className="img-fluid"/>
-								</div>
-								<div className="profile-1">
-									<img src="assets/images/top4.png" alt="top4" className="img-fluid"/>
-								</div>
-								<div className="emoji">
-									<img src="assets/images/top5.png" alt="top5" className="img-fluid"/>
-								</div>
-								<div className="profile-2">
-									<img src="assets/images/top1.png" alt="top1" className="img-fluid"/>
-								</div>
-							</div>
-						</div>
-					</div>
+
+				<div className="intro-image">
+					<h1>Alfabeto</h1>
+					<h3>Svijet na dlanu</h3>
 				</div>
+
+
 			</section>
   			{/* Home One Section End */}
 
