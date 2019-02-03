@@ -12,4 +12,38 @@
         color: $primary_color;
         margin: 0;
     }
+
+    h1 {
+        font-weight: 800;
+    }
+}
+
+.feature__image {
+    img {
+        width: 300px;
+        margin-bottom: 30px;
+    }
+
+    p {
+        color: white;
+    }
+
+    &--white-bg {
+        p {
+            color: $theme-gray;
+        }
+    }
+}
+
+.section-title h3 {
+    font-size: 26px;
+}
+
+
+.contact-box {
+    display: inline-block;
+
+    .contact-text {
+        text-align: left;
+    }
 }

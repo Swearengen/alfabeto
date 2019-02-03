@@ -1,6 +1,7 @@
 import React from 'react';
 import Feature from './components/feature';
 import Contact from './components/contact';
+import About from './components/about';
 
 class Home extends React.Component {
   render() {
@@ -17,14 +18,16 @@ class Home extends React.Component {
 					<div className="collapse navbar-collapse" id="mainmenu">
 						<ul className="navbar-nav ml-auto" id="mymenu">
 							<li className="nav-item ">
-								<a className="nav-link" href="#home" >Home</a>
+								<a className="nav-link" href="#home" >Početna</a>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link" href="#feature" >feature</a>
+								<a className="nav-link" href="#feature">Usluge</a>
 							</li>
-
 							<li className="nav-item">
-								<a className="nav-link" href="#contact">contact us</a>
+								<a className="nav-link" href="#about">O Nama</a>
+							</li>
+							<li className="nav-item">
+								<a className="nav-link" href="#contact">Kontakt</a>
 							</li>
 						</ul>
 					</div>
@@ -48,10 +51,8 @@ class Home extends React.Component {
 			</section>
   			{/* Home One Section End */}
 
-			{/*Feature Component*/}
 			<Feature />
-
-			{/*Contact Component*/}
+			<About />
 			<Contact />
 
 			{/*tap-top*/}
