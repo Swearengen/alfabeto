@@ -28,7 +28,7 @@ class Feature extends React.Component {
                                  <h3>PRIJEVODI</h3>
                                  <p><em>stvorite si nove prilike</em></p>
                                  <p>Želite ostaviti dobar dojam i izgraditi ugled u inozemstvu, a jezici vam nisu jača strana? Priuštite svojim čitateljima jednostavan i jasan jezik. Uz našu pomoć šarmirajte svojim tekstovima.</p>
-                                 <p className="no-margin">Javite name se ako trebate:</p>
+                                 <p className="no-margin">Javite nam se ako trebate:</p>
                                  <ul>
                                     <li>ovjerene prijevode</li>
                                     <li>prijevode bez ovjere</li>
