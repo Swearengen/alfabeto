@@ -70,7 +70,7 @@ class Feature extends React.Component {
                         </div>
                         <div className="col-md-6">
                            <div className="text-left">
-                              <h3 className="text-white">PODUKE</h3>
+                              <h3>PODUKE</h3>
                               <p><em>jer dobra komunikacija je pola posla</em></p>
                               <p>Stižu inozemni klijenti, a vama je maca popala jezik? Dosta je izbjegavanja poslovnih razgovora, sljedeći ih sastanak izujte iz cipela. Mi smo tu da vam olakšamo komunikaciju, a vi samo odaberite jezik.</p>
                               <p className="no-margin">Nudimo vam:</p>

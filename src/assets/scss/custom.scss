@@ -8,13 +8,11 @@
     padding-top: 30px;
     text-align: left;
 
-    h1, h3 {
-        color: $primary_color;
+    .container h1 {
         margin: 0;
-    }
-
-    h1 {
+        color: $primary_color;
         font-weight: 800;
+        font-size: 48px;
     }
 }
 
