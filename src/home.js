@@ -43,11 +43,15 @@ class Home extends React.Component {
 				</div>
 
 				<div className="intro-image">
-					<h1>Alfabeto</h1>
-					<h3>Svijet na dlanu</h3>
+					<div className="container">
+						<div className="row">
+							<div className="col-md-10">
+								<h1>Alfabeto</h1>
+								<h3>Svijet na dlanu</h3>
+							</div>
+						</div>
+					</div>
 				</div>
-
-
 			</section>
   			{/* Home One Section End */}
 

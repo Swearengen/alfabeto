@@ -6,7 +6,7 @@
     right: 0;
     left: 0;
     padding-top: 30px;
-    text-align: center;
+    text-align: left;
 
     h1, h3 {
         color: $primary_color;
@@ -18,7 +18,8 @@
     }
 }
 
-.feature__image {
+.feature-image {
+    text-align: center;
     img {
         width: 300px;
         margin-bottom: 30px;
@@ -30,6 +31,21 @@
 
     &--white-bg {
         p {
+            color: $theme-gray;
+        }
+    }
+
+    .no-margin {
+        margin: 0;
+    }
+
+    ul {
+        list-style-type: inherit;
+        padding-left: 40px;
+        margin: 5px 0 0 0;
+
+        li {
+            font-size: 18px;
             color: $theme-gray;
         }
     }
@@ -45,5 +61,24 @@
 
     .contact-text {
         text-align: left;
+    }
+}
+
+body section .container {
+    p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    h1 {
+        font-size: 44px;
+    }
+
+    h2 {
+        font-size: 38px;
+    }
+
+    h3 {
+        font-size: 28px;
     }
 }
