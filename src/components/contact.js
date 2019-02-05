@@ -11,7 +11,6 @@ class Contact extends React.Component {
                <div className="col-md-12">
                   <div className="section-title">
                      <h2>KONTAKT</h2>
-                     <img src="assets/images/title-line.png" alt="title-line" className="img-fluid"/>
                   </div>
                   <div className="row">
                      <div className="col-md-6">

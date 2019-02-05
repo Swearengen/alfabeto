@@ -2,7 +2,7 @@
   "name": "chatloop-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Swearengen.github.io/alfabeto",
+  "homepage": "https://alfabeto.net",
   "basename": "/",
   "dependencies": {
     "autoprefixer": "7.1.6",

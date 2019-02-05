@@ -62,21 +62,39 @@
     }
 }
 
-body section .container {
-    p {
-        font-size: 18px;
-        line-height: 25px;
+body section {
+    .container {
+        p {
+            font-size: 18px;
+            line-height: 25px;
+        }
+
+        h1 {
+            font-size: 44px;
+        }
+
+        h2 {
+            font-size: 38px;
+        }
+
+        h3 {
+            font-size: 28px;
+        }
+
+        .section-title {
+            h2 {
+                display: inline-block;
+                margin: 0;
+                padding-bottom: 10px;
+                background: url(./assets/images/title-line.png) no-repeat center bottom;
+                background-size: 100% 5px;
+            }
+        }
     }
 
-    h1 {
-        font-size: 44px;
-    }
-
-    h2 {
-        font-size: 38px;
-    }
-
-    h3 {
-        font-size: 28px;
+    &.theme-bg {
+        .container .section-title h2 {
+            background-image: url(./assets/images/white-line.png);
+        }
     }
 }

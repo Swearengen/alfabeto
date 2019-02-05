@@ -16,7 +16,6 @@ class Feature extends React.Component {
                   <div className="col-md-12">
                      <div className="section-title">
                         <h2>USLUGE</h2>
-                        <img src="assets/images/title-line.png" alt="white-line" className="img-fluid"/>
                      </div>
                      <div className="feature-image feature-image--white-bg">
                         <div className="row">
