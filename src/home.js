@@ -3,6 +3,8 @@ import Feature from './components/feature';
 import Contact from './components/contact';
 import About from './components/about';
 
+import logoImg from './assets/images/alfabeto-logo.png';
+
 class Home extends React.Component {
   render() {
   	document.body.classList.remove('inner-page');
@@ -11,7 +13,7 @@ class Home extends React.Component {
   			{/* Navbar Section*/}
   			<nav className="navbar navbar-expand-lg  theme-nav fixed-top">
 				<div className="container">
-					<a className="navbar-brand" href={`${process.env.PUBLIC_URL}/`}><img src="assets/images/logo.png" alt="logo" /></a>
+					<a className="navbar-brand" href={`${process.env.PUBLIC_URL}/`}><img src={logoImg} alt="logo" /></a>
 					<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu"  aria-expanded="false" aria-label="Toggle navigation">
 						<span className="navbar-toggler-icon"><i className="fa fa-align-justify" aria-hidden="true"></i></span>
 					</button>
