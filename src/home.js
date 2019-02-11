@@ -3,7 +3,7 @@ import Feature from './components/feature';
 import Contact from './components/contact';
 import About from './components/about';
 
-import logoImg from './assets/images/alfabeto-logo.png';
+import logoImg from './assets/images/alfabeto-logo2.png';
 
 class Home extends React.Component {
   render() {
