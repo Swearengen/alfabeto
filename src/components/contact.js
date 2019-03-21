@@ -39,7 +39,7 @@ class Contact extends React.Component {
                               </div>
                               <div className="contact-text">
                                  <h3>Email:</h3>
-                                 <p>info@alfabeto-prijevodi.hr/</p>
+                                 <p>info@alfabeto-prijevodi.hr</p>
                               </div>
                            </li>
                         </ul>

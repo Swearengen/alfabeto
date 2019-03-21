@@ -21,7 +21,7 @@ class About extends React.Component {
                         <div className="col-md-6">
                            <div className="text-left">
                               <p className="text-white">Mladi smo studio koji se bavi pisanjem i prevođenjem tekstova te podukom.</p>
-                              <p className="text-white">Obožavamo se igrati riječima, kratiti, dodavati i uređivati, a jednako nas veseli čuti kako naši klijenti sipaju fraze na stranom jeziku kao iz rukava.</p>
+                              <p className="text-white">Obožavamo se igrati riječima, kratiti, dodavati i uređivati, a jednako nas veseli kada čujemo kako naši klijenti sipaju fraze na stranom jeziku kao iz rukava.</p>
                               <p className="text-white">Sve te ljubavi objedinili smo pod imenom <strong>Alfabeto</strong>.</p>
                            </div>
                         </div>

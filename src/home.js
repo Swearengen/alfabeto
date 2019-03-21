@@ -2,6 +2,7 @@ import React from 'react';
 import Feature from './components/feature';
 import Contact from './components/contact';
 import About from './components/about';
+import Pricing from './components/pricing';
 
 import logoImg from './assets/images/alfabeto-logo2.png';
 
@@ -21,6 +22,9 @@ class Home extends React.Component {
 						<ul className="navbar-nav ml-auto" id="mymenu">
 							<li className="nav-item">
 								<a className="nav-link" href="#feature">Usluge</a>
+							</li>
+							<li className="nav-item">
+								<a className="nav-link" href="#pricing">Cijene</a>
 							</li>
 							<li className="nav-item">
 								<a className="nav-link" href="#about">O Nama</a>
@@ -54,6 +58,7 @@ class Home extends React.Component {
   			{/* Home One Section End */}
 
 			<Feature />
+			<Pricing />
 			<About />
 			<Contact />
 

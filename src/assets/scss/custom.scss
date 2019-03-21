@@ -136,3 +136,21 @@ body section {
         color: black;
     }
 }
+
+section {
+
+    .table {
+        margin-top: 40px;
+
+        td {
+            vertical-align: middle;
+            font-size: 16px;
+        }
+    }
+
+    &.theme-bg {
+        .table {
+            color: white;
+        }
+    }
+}
