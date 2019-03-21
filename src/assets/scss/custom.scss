@@ -13,6 +13,7 @@
         color: $primary_color;
         font-weight: 800;
         font-size: 48px;
+        font-family: 'Dancing Script', cursive;
     }
 }
 
@@ -40,11 +41,27 @@
     ul {
         list-style-type: inherit;
         padding-left: 40px;
-        margin: 5px 0 0 0;
+        margin: 0;
 
         li {
             font-size: 18px;
             color: $theme-gray;
+            padding: 5px 0;
+        }
+
+        .nested-list {
+            list-style-type: circle;
+        }
+
+        &.text-white {
+            li {
+                color: white;
+            }
+        }
+        &.text-black {
+            li {
+                color: black;
+            }
         }
     }
 }
@@ -97,5 +114,25 @@ body section {
         .container .section-title h2 {
             background-image: url(./assets/images/white-line.png);
         }
+    }
+}
+
+.navbar-nav .nav-item {
+    padding: 16px 5px;
+    .nav-link {
+        font-size: 18px;
+    }
+}
+
+.feature-image--white-bg {
+    h4, h5 {
+        color: $theme-gray;
+    }
+    h4 {
+        margin-bottom: 15px;
+    }
+
+    strong {
+        color: black;
     }
 }

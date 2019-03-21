@@ -13,7 +13,7 @@ class About extends React.Component {
                   <div className="section-title">
                      <h2 className="text-white">O NAMA</h2>
                   </div>
-                  <div className="feature-image feature-image--white-bg">
+                  <div className="feature-image">
                      <div className="row">
                         <div className="col-md-6">
                            <img src={aboutIcon} alt="about"/>
