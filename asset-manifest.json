@@ -1,16 +1,17 @@
 {
-  "main.css": "static/css/main.604d67c2.css",
-  "main.css.map": "static/css/main.604d67c2.css.map",
-  "main.js": "static/js/main.b3608db3.js",
-  "main.js.map": "static/js/main.b3608db3.js.map",
+  "main.css": "static/css/main.3073a042.css",
+  "main.css.map": "static/css/main.3073a042.css.map",
+  "main.js": "static/js/main.d8107596.js",
+  "main.js.map": "static/js/main.d8107596.js.map",
   "static/media/about.png": "static/media/about.ab902951.png",
   "static/media/conversation.png": "static/media/conversation.8a35c63a.png",
-  "static/media/english.png": "static/media/english.2aae5168.png",
   "static/media/fontawesome-webfont.eot": "static/media/fontawesome-webfont.674f50d2.eot",
   "static/media/fontawesome-webfont.svg?v=4.7.0": "static/media/fontawesome-webfont.912ec66d.svg",
   "static/media/fontawesome-webfont.ttf?v=4.7.0": "static/media/fontawesome-webfont.b06871f2.ttf",
   "static/media/fontawesome-webfont.woff2?v=4.7.0": "static/media/fontawesome-webfont.af7ae505.woff2",
   "static/media/fontawesome-webfont.woff?v=4.7.0": "static/media/fontawesome-webfont.fee66e71.woff",
   "static/media/idea.png": "static/media/idea.8148c226.png",
-  "static/media/intro.jpg": "static/media/intro.15e97f1c.jpg"
+  "static/media/intro.jpg": "static/media/intro.15e97f1c.jpg",
+  "static/media/poduke.png": "static/media/poduke.1ae6f356.png",
+  "static/media/pricing.png": "static/media/pricing.43e7ef87.png"
 }
