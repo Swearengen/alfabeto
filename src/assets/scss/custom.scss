@@ -30,7 +30,7 @@
 
     &--white-bg {
         p {
-            color: $theme-gray;
+            color: black;
         }
     }
 
@@ -45,7 +45,7 @@
 
         li {
             font-size: 18px;
-            color: $theme-gray;
+            color: black;
             padding: 5px 0;
         }
 
@@ -101,6 +101,7 @@ body section {
 
         h3 {
             font-size: 28px;
+            color: black;
         }
 
         .section-title {
@@ -131,7 +132,7 @@ body section {
 
 .feature-image--white-bg {
     h4, h5 {
-        color: $theme-gray;
+        color: black;
     }
     h4 {
         margin-bottom: 15px;
