@@ -2,8 +2,8 @@ import React from 'react';
 
 import ideaIcon from '../assets/images/idea.png';
 import conversationIcon from '../assets/images/conversation.png';
-import podukeIcon from '../assets/images/poduke.png';
 
+import pricingIcon from '../assets/images/pricing.png';
 
 class Feature extends React.Component {
   render() {
@@ -19,20 +19,15 @@ class Feature extends React.Component {
                      </div>
                      <div className="feature-image feature-image--white-bg">
                         <div className="row">
-                           <div className="col-md-6">
-                              <img src={conversationIcon} alt="conversation"/>
+                           <div className="col-md-4">
+                              <img src={conversationIcon} alt="conversation" style={{width: '240px'}}/>
                            </div>
-                           <div className="col-md-6">
+                           <div className="col-md-8">
                               <div className="text-left">
                                  <h3>PRIJEVODI</h3>
                                  <p><em>stvorite si nove prilike</em></p>
-                                 <p>Želite ostaviti dobar dojam i izgraditi ugled u inozemstvu, a jezici vam nisu jača strana? Uz naše prijevode priuštite svojim čitateljima jednostavan i jasan jezik. Šarmirajte svojim tekstovima.</p>
-                                 {/* <p className="no-margin">Javite nam se ako trebate:</p> */}
-                                 {/* <ul>
-                                    <li>ovjerene prijevode</li>
-                                    <li>prijevode bez ovjere</li>
-                                    <li>lekturu</li>
-                                 </ul> */}
+                                 <p>Želite ostaviti dobar dojam i izgraditi ugled u inozemstvu, a jezici vam nisu jača strana?</p>
+                                 <p>Uz naše prijevode priuštite svojim čitateljima jednostavan i jasan jezik. Šarmirajte svojim tekstovima.</p>
                               </div>
                            </div>
                         </div>
@@ -41,23 +36,23 @@ class Feature extends React.Component {
                </div>
             </div>
          </section>
-         <section className="theme-bg">
+         <section style={{padding: 0}}>
             <div className="container">
-                  <div className="feature-image">
+                  <div className="feature-image feature-image--white-bg">
                      <div className="row">
                         <div className="col-md-6">
                            <div className="text-left">
-                              <h4 className="text-white">PISANI PRIJEVODI</h4>
+                              <h4>PISANI PRIJEVODI</h4>
                               <p>Potreban vam je prijevod teksta na strani jezik ili sa stranog jezika na hrvatski?</p>
                               <p><strong>Prepustite to nama.</strong> Za vas prevodimo <strong>s/na više od 10 stranih jezika.</strong></p>
-                              <p>Uz opsežno istraživanje i marljivo mozganje prenosimo izvornu poruku u drugi jezik, <strong>Javite nam se!</strong></p>
+                              <p>Uz opsežno istraživanje i marljivo mozganje prenosimo izvornu poruku u drugi jezik.</p>
+                              <p><strong>Javite nam se!</strong></p>
                            </div>
                         </div>
                         <div className="col-md-6">
                            <div className="text-left">
                               <h4 className="text-white">USMENI PRIJEVODI</h4>
-                              <p>Želite pronaći zajednički jezik s klijentima, ali vam to ne polazi za rukom? Tu mi uskačemo!</p>
-                              <p>Prenosimo vaše riječi na strani jezik i omogućujemo lakšu komunikaciju na poslovnim sastancima, pregovorima, konferencijama i seminarima.</p>
+                              <p>Želite pronaći zajednički jezik s klijentima, ali vam to ne polazi za rukom? Tu mi uskačemo! Prenosimo vaše riječi na strani jezik i omogućujemo lakšu komunikaciju na poslovnim sastancima, pregovorima, konferencijama i seminarima.</p>
                            </div>
                         </div>
                      </div>
@@ -120,9 +115,9 @@ class Feature extends React.Component {
             <div className="container">
                   <div className="feature-image">
                      <div className="row">
-                        <div className="col-md-6">
+                        <div className="col-md-8">
                            <div className="text-left">
-                              <h3 className="text-white">PISANJE SADRŽAJA</h3>
+                              <h3 className="text-white">PISANJE SADRŽAJA (copywriting)</h3>
                               <p><em>privucite poglede klijenata</em></p>
                               <p>Znate koliko vaš proizvod vrijedi, ali to nikako ne znate pretočiti u riječi? Započeli ste s pisanjem, ali vas je snašla kreativna blokada? Odahnite jer mi ćemo vam pomoći u pisanju sadržaja! </p>
                               <p>Kvalitetno i povoljno usmjeravamo svjetla reflektora baš na vas.</p>
@@ -138,7 +133,7 @@ class Feature extends React.Component {
                               </ul>
                            </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-4">
                            <img src={ideaIcon} alt="idea" style={{marginTop: '100px'}}/>
                         </div>
                      </div>
@@ -150,10 +145,7 @@ class Feature extends React.Component {
                <div className="feature-image">
                   <div className="feature-image feature-image--white-bg">
                      <div className="row">
-                        <div className="col-md-6">
-                           <img src={podukeIcon} alt="english"/>
-                        </div>
-                        <div className="col-md-6">
+                        <div className="col-md-12">
                            <div className="text-left">
                               <h3>PODUKE</h3>
                               <p><em>jer dobra komunikacija je pola posla</em></p>
@@ -166,24 +158,27 @@ class Feature extends React.Component {
             </div>
          </section>
 
-         <section className="theme-bg">
+         <section style={{padding: 0}}>
             <div className="container">
-                  <div className="feature-image">
+                  <div className="feature-image feature-image--white-bg">
                      <div className="row">
                         <div className="col-md-12">
-                           <div className="text-left">
-                              <h4 className="text-white">OPĆI TEČAJ STRANOG JEZIKA</h4>
-                           </div>
                         </div>
                      </div>
                      <div className="row">
                         <div className="col-md-6">
+                           <div className="text-left">
+                              <h4>OPĆI TEČAJ STRANOG JEZIKA</h4>
+                           </div>
                            <div className="text-left">
                               <p>Upisom općeg tečaja stranog jezika učite četiri školska sata tjedno. Ako ste oduvijek htjeli započeti s učenjem nekog stranog jezika ili želite poboljšati sve svoje jezične vještine, ovo je prava stvar za vas</p>
                               <p>Slušamo, pišemo, čitamo, govorimo, razmišljamo, diskutiramo; <strong>i to sve na stranom jeziku!</strong></p>
                            </div>
                         </div>
                         <div className="col-md-6">
+                           <div className="text-left">
+                              <h4>POSLOVNI TEČAJ STRANOG JEZIKA</h4>
+                           </div>
                            <div className="text-left">
                               <p>Stižu inozemni klijenti, a vama je maca popapala jezik? Dosta je izbjegavanja poslovnih razgovora, sljedeći ih sastanak izujte iz cipela.</p>
                               <p>Pregovaranje, odgovaranje na upite, ugovaranje poslova na stranom jeziku? <strong>Četiri školska sata tjedno brusite svoje poslovne vještine.</strong> Mi smo tu da vam olakšamo komunikaciju, a vi samo odaberite jezik.</p>
@@ -199,20 +194,24 @@ class Feature extends React.Component {
                <div className="feature-image">
                   <div className="feature-image feature-image--white-bg">
                      <div className="row">
-                        <div className="col-md-12">
+                        <div className="col-md-6">
                            <div className="text-left">
-                              <h4>POSLOVNI TEČAJ STRANOG JEZIKA</h4>
+                              <h4>INDIVIDUALNI TEČAJ STRANOG JEZIKA</h4>
+                              <p>Planirate uskoro put pod noge i potrebno vam je <strong>brzo uliti znanje u glavu?</strong> Javite nam se sa svojim željama, kreiramo nastavu baš za vas</p>
+                           </div>
+                        </div>
+                        <div className="col-md-6">
+                           <div className="text-left">
+                              <h4>ONLINE TEČAJ STRANOG JEZIKA</h4>
+                              <p>Rado biste naučili strani jezik, ali vam se ne da ustati iz naslonjača? Nema problema, stižemo kod vas doma.</p>
+                              <p><strong>Odaberite koliko školskih sati tjedno virtualno učimo.</strong></p>
                            </div>
                         </div>
                      </div>
                      <div className="row">
                         <div className="col-md-6">
                            <div className="text-left">
-                              <h5>INDIVIDUALNI TEČAJ STRANOG JEZIKA</h5>
-                              <p>Planirate uskoro put pod noge i potrebno vam je <strong>brzo uliti znanje u glavu?</strong> Javite nam se sa svojim željama, kreiramo nastavu baš za vas</p>
-                           </div>
-                           <div className="text-left">
-                              <h5 style={{margin: '25px 0 0'}}>KOJE JEZIKE MOŽETE KOD NAS UČITI?</h5>
+                              <h4 style={{margin: '25px 0 0'}}>KOJE JEZIKE MOŽETE KOD NAS UČITI?</h4>
                                  <ul className="text-black">
                                     <li>njemački jezik</li>
                                     <li>engleski jezik</li>
@@ -222,11 +221,7 @@ class Feature extends React.Component {
                            </div>
                         </div>
                         <div className="col-md-6">
-                           <div className="text-left">
-                              <h5>ONLINE TEČAJ STRANOG JEZIKA</h5>
-                              <p>Rado biste naučili strani jezik, ali vam se ne da ustati iz naslonjača? Nema problema, stižemo kod vas doma.</p>
-                              <p><strong>Odaberite koliko školskih sati tjedno virtualno učimo.</strong></p>
-                           </div>
+                           <img src={pricingIcon} alt="about"/>
                         </div>
                      </div>
                   </div>

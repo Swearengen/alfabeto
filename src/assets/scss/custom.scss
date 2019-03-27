@@ -12,7 +12,7 @@
         margin: 0;
         color: $primary_color;
         font-weight: 800;
-        font-size: 48px;
+        font-size: 65px;
         font-family: 'Dancing Script', cursive;
     }
 }
@@ -41,7 +41,7 @@
     ul {
         list-style-type: inherit;
         padding-left: 40px;
-        margin: 0;
+        margin: 10px 0 0;
 
         li {
             font-size: 18px;
@@ -76,6 +76,11 @@
 
     .contact-text {
         text-align: left;
+    }
+
+    .contact-circle {
+        border: 2px solid white;
+        color: white;
     }
 }
 
@@ -142,9 +147,13 @@ section {
     .table {
         margin-top: 40px;
 
+        th {
+            font-size: 18px;
+        }
+
         td {
             vertical-align: middle;
-            font-size: 16px;
+            font-size: 15px;
         }
     }
 

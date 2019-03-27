@@ -49,7 +49,7 @@ class Home extends React.Component {
 					<div className="container">
 						<div className="row">
 							<div className="col-md-10">
-								<h1>SVIJET NA DLANU</h1>
+								<h1>svijet na dlanu</h1>
 							</div>
 						</div>
 					</div>

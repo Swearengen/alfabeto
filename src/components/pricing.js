@@ -1,6 +1,6 @@
 import React from 'react'
 
-import pricingIcon from '../assets/images/pricing.png'
+import podukeIcon from '../assets/images/poduke.png';
 
 class Pricing extends React.Component {
     render() {
@@ -16,7 +16,7 @@ class Pricing extends React.Component {
                             </div>
                             <div className="feature-image">
                                 <div className="row">
-                                    <div className="col-md-6">
+                                    <div className="col-md-7">
                                         <div className="text-left">
                                             <h3 className="text-white">CIJENA PRIJEVODA</h3>
                                             <ul className="text-white">
@@ -29,13 +29,13 @@ class Pricing extends React.Component {
                                             </ul>
                                         </div>
                                     </div>
-                                    <div className="col-md-6">
-                                        <img src={pricingIcon} style={{marginTop: '60px'}} alt="pricing" />
+                                    <div className="col-md-4 offset-md-1">
+                                        <img src={podukeIcon} style={{marginTop: '60px'}} alt="pricing" />
                                     </div>
                                 </div>
                                 <div className="row">
-                                    <div className="col-md-8 offset-md-2">
-                                        <table class="table table-bordered">
+                                    <div className="col-md-12">
+                                        <table className="table table-bordered">
                                             <thead>
                                                 <tr>
                                                     <th scope="col">engleski, talijanski</th>
@@ -60,33 +60,33 @@ class Pricing extends React.Component {
                         </div>
                     </div>
                 </section>
-                <section>
+                <section className="theme-bg about" style={{paddingTop: 0}}>
                     <div className="container">
                         <div className="feature-image">
-                            <div className="feature-image feature-image--white-bg">
+                            <div className="feature-image">
                                 <div className="row">
                                     <div className="col-md-6">
                                         <div className="text-left">
-                                            <h3>CIJENA PISANJA SADRŽAJA</h3>
-                                            <ul >
+                                            <h3 className="text-white">CIJENA PISANJA SADRŽAJA</h3>
+                                            <ul className="text-white">
                                                 <li>pisani prijevodi obračunavaju se prema normiranoj kartici teksta koja sadrži 1500 znakova s razmacima ili prema broju riječi</li>
                                             </ul>
                                         </div>
                                     </div>
                                     <div className="col-md-6">
-                                    <div className="text-left">
-                                        <h3>CIJENA PODUKA</h3>
-                                            <ul>
+                                        <div className="text-left">
+                                            <h3 className="text-white">CIJENA PODUKA</h3>
+                                            <ul className="text-white">
                                                 <li>cijene tečaja ovise vrsti tečaja i odabranom jeziku</li>
                                                 <li>cijene se računaju kao paket sati po tečaju (60 školskih sati) ili po školskom satu</li>
                                                 <li>cijena po školskom satu iznosi između 100,00 i 220,00 kn</li>
                                             </ul>
-                                    </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div className="row">
-                                    <div className="col-md-8 offset-md-2">
-                                        <table class="table table-bordered">
+                                    <div className="col-md-12">
+                                        <table className="table table-bordered">
                                             <thead>
                                                 <tr>
                                                     <th scope="col">Opći tečaj stranog jezika</th>
