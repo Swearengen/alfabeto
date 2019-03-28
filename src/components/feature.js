@@ -51,8 +51,8 @@ class Feature extends React.Component {
                         </div>
                         <div className="col-md-6">
                            <div className="text-left">
-                              <h4 className="text-white">USMENI PRIJEVODI</h4>
-                              <p>Želite pronaći zajednički jezik s klijentima, ali vam to ne polazi za rukom? Tu mi uskačemo! Prenosimo vaše riječi na strani jezik i omogućujemo lakšu komunikaciju na poslovnim sastancima, pregovorima, konferencijama i seminarima.</p>
+                              <h4>USMENI PRIJEVODI</h4>
+                              <p>Želite pronaći zajednički jezik s klijentima, ali vam to ne polazi za rukom? Tu mi uskačemo! Tijekom vaše komunikacije vršimo prijevod na strani jezik i omogućujemo lakše sporazumijevanje na poslovnim sastancima, pregovorima, konferencijama i seminarima.</p>
                            </div>
                         </div>
                      </div>
@@ -90,7 +90,7 @@ class Feature extends React.Component {
                               <h4>KAKVE TEKSTOVE PREVODIMO?</h4>
                               <ul>
                                  <li>marketinške tekstove, sadržaje za društvene mreže (content)</li>
-                                 <li>internetske stranice</li>
+                                 <li>sadržaje za internetske stranice</li>
                                  <li>diplomske radove, maturalne radove</li>
                                  <li>objave za medije i srodne tekstove</li>
                                  <li>tehničku dokumentaciju</li>
@@ -117,19 +117,20 @@ class Feature extends React.Component {
                      <div className="row">
                         <div className="col-md-8">
                            <div className="text-left">
-                              <h3 className="text-white">PISANJE SADRŽAJA (copywriting)</h3>
+                              <h3 className="text-white">PISANJE SADRŽAJA <em>(copywriting)</em></h3>
                               <p><em>privucite poglede klijenata</em></p>
-                              <p>Znate koliko vaš proizvod vrijedi, ali to nikako ne znate pretočiti u riječi? Započeli ste s pisanjem, ali vas je snašla kreativna blokada? Odahnite jer mi ćemo vam pomoći u pisanju sadržaja! </p>
+                              <p>Znate koliko vaš proizvod vrijedi, ali to nikako ne znate pretočiti u riječi?</p>
+                              <p>Započeli ste s pisanjem, ali vas je snašla kreativna blokada?</p>
+                              <p>Odahnite, jer jedna je od naših specijalnosti i pisanje sadržaja!</p>
                               <p>Kvalitetno i povoljno usmjeravamo svjetla reflektora baš na vas.</p>
-                              <h4>ŠTO SVE PIŠEMO?</h4>
+                              <h4 style={{marginTop: '50px'}}>ŠTO SVE PIŠEMO?</h4>
                               <ul className="text-white">
-                                 <li>tekstove za internetsku stranicu</li>
+                                 <li>tekstove za web stranice</li>
                                  <li>tekstove o proizvodima i uslugama</li>
-                                 <li>tekstove za internetske trgovine (webshop)</li>
+                                 <li>tekstove za internetske trgovine <em>(webshop)</em></li>
                                  <li>brošure</li>
                                  <li>tekstove za oglase</li>
                                  <li>recenzije proizvoda</li>
-                                 <li>recenzije usluga</li>
                               </ul>
                            </div>
                         </div>
@@ -147,9 +148,18 @@ class Feature extends React.Component {
                      <div className="row">
                         <div className="col-md-12">
                            <div className="text-left">
-                              <h3>PODUKE</h3>
+                              <h3>TEČAJEVI STRANIH JEZIKA</h3>
                               <p><em>jer dobra komunikacija je pola posla</em></p>
                               <p>Oduvijek vas je mučila gramatika <strong>njemačkog jezika</strong> ili biste htjeli usavršiti <strong>engleski jezik</strong>? Želite naučiti osnove <strong>talijanskog jezika</strong> ili napokon saznati o čemu je riječ u vašim omiljenim sapunicama na <strong>španjolskom jeziku</strong>? Mi ćemo vam olakšati!</p>
+                              <p style={{marginBottom: '0'}}>Ako već imate neko predznanje procijenit ćemo razinu poznavanja jezika posebice ako želite učiti jezik zbog unaprjeđenja, prekvalifikacije ili zbog potrebe pronalaska posla u inozemstvu. Razine poznavanja stranog jezika definirane su Zajedničkim europskim referentnim okvirom za strane jezik pa tako imamo:</p>
+                              <ul>
+                                 <li>A1 (A1.1 I A1.2)</li>
+                                 <li>A2 (A2.1 I A2.2.)</li>
+                                 <li>B1 (B1.1, B1.2 I B1.3)</li>
+                                 <li>B2 (B2.1, B2.2 I B2.3)</li>
+                                 <li>C1 (C1.1, C1.2, C1.3 I C1.4)</li>
+                                 <li>C2</li>
+                              </ul>
                            </div>
                         </div>
                      </div>
@@ -171,7 +181,7 @@ class Feature extends React.Component {
                               <h4>OPĆI TEČAJ STRANOG JEZIKA</h4>
                            </div>
                            <div className="text-left">
-                              <p>Upisom općeg tečaja stranog jezika učite četiri školska sata tjedno. Ako ste oduvijek htjeli započeti s učenjem nekog stranog jezika ili želite poboljšati sve svoje jezične vještine, ovo je prava stvar za vas</p>
+                              <p>Upisom općeg tečaja stranog jezika učite <strong>četiri školska sata tjedno</strong>. Ako ste oduvijek htjeli započeti s učenjem nekog stranog jezika ili želite poboljšati sve svoje jezične vještine, ovo je prava stvar za vas. Pratimo vas od tečaja za početnike do onih naprednijih razina.</p>
                               <p>Slušamo, pišemo, čitamo, govorimo, razmišljamo, diskutiramo; <strong>i to sve na stranom jeziku!</strong></p>
                            </div>
                         </div>
@@ -181,7 +191,7 @@ class Feature extends React.Component {
                            </div>
                            <div className="text-left">
                               <p>Stižu inozemni klijenti, a vama je maca popapala jezik? Dosta je izbjegavanja poslovnih razgovora, sljedeći ih sastanak izujte iz cipela.</p>
-                              <p>Pregovaranje, odgovaranje na upite, ugovaranje poslova na stranom jeziku? <strong>Četiri školska sata tjedno brusite svoje poslovne vještine.</strong> Mi smo tu da vam olakšamo komunikaciju, a vi samo odaberite jezik.</p>
+                              <p>Pregovaranje, odgovaranje na upite, ugovaranje poslova na stranom jeziku? <strong>Četiri školska sata tjedno brusite svoje poslovne vještine.</strong> Mi smo tu da vam olakšamo komunikaciju, a vi samo odaberite <strong>strani jezik koji želite usavršiti vi ili zaposlenici u vašoj tvrtki.</strong></p>
                            </div>
                         </div>
                      </div>
@@ -197,21 +207,21 @@ class Feature extends React.Component {
                         <div className="col-md-6">
                            <div className="text-left">
                               <h4>INDIVIDUALNI TEČAJ STRANOG JEZIKA</h4>
-                              <p>Planirate uskoro put pod noge i potrebno vam je <strong>brzo uliti znanje u glavu?</strong> Javite nam se sa svojim željama, kreiramo nastavu baš za vas</p>
+                              <p>Planirate uskoro put pod noge i potrebno vam je brzo učenje engleskog, njemačkog, ili nekog drugog stranog jezika? Treba vam <strong>tečaj njemačkog za početnike</strong> ili <strong>intenzivni tečaj engleskog jezika</strong>? U kratkom vremenu individualni tečaj vam može pružiti znanje i samopouzdanje. Javite nam se sa svojim željama, kreiramo nastavu baš za vas!</p>
                            </div>
                         </div>
                         <div className="col-md-6">
                            <div className="text-left">
                               <h4>ONLINE TEČAJ STRANOG JEZIKA</h4>
                               <p>Rado biste naučili strani jezik, ali vam se ne da ustati iz naslonjača? Nema problema, stižemo kod vas doma.</p>
-                              <p><strong>Odaberite koliko školskih sati tjedno virtualno učimo.</strong></p>
+                              <p>Odaberite koliko školskih sati tjedno učimo <strong>online engleski, njemački ili talijanski</strong> i bit ćete spremni za nove izazove.</p>
                            </div>
                         </div>
                      </div>
                      <div className="row">
                         <div className="col-md-6">
                            <div className="text-left">
-                              <h4 style={{margin: '25px 0 0'}}>KOJE JEZIKE MOŽETE KOD NAS UČITI?</h4>
+                              <h4 style={{margin: '25px 0 0'}}>KOJI SU VAM TEČAJEVI KOD NAS DOSTUPNI?</h4>
                                  <ul className="text-black">
                                     <li>njemački jezik</li>
                                     <li>engleski jezik</li>

@@ -69,15 +69,15 @@ class Pricing extends React.Component {
                                         <div className="text-left">
                                             <h3 className="text-white">CIJENA PISANJA SADRŽAJA</h3>
                                             <ul className="text-white">
-                                                <li>pisani prijevodi obračunavaju se prema normiranoj kartici teksta koja sadrži 1500 znakova s razmacima ili prema broju riječi</li>
+                                                <li>cijena opisa proizvoda, pisanja tekstova za web stranice ovisi o zahtjevnosti tematike sadržaja i kreće se između 120,00 i 250,00 kn</li>
                                             </ul>
                                         </div>
                                     </div>
                                     <div className="col-md-6">
                                         <div className="text-left">
-                                            <h3 className="text-white">CIJENA PODUKA</h3>
+                                            <h3 className="text-white">CIJENA TEČAJA STRANOG JEZIKA</h3>
                                             <ul className="text-white">
-                                                <li>cijene tečaja ovise vrsti tečaja i odabranom jeziku</li>
+                                                <li>cijene tečaja stranog jezika ovise vrsti tečaja i odabranom jeziku</li>
                                                 <li>cijene se računaju kao paket sati po tečaju (60 školskih sati) ili po školskom satu</li>
                                                 <li>cijena po školskom satu iznosi između 100,00 i 220,00 kn</li>
                                             </ul>

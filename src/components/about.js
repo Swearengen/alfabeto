@@ -20,9 +20,7 @@ class About extends React.Component {
                         </div>
                         <div className="col-md-8">
                            <div className="text-left">
-                              <p>Mladi smo studio koji se bavi pisanjem i prevođenjem tekstova te podukom.</p>
-                              <p>Obožavamo se igrati riječima, kratiti, dodavati i uređivati, a jednako nas veseli kada čujemo kako naši klijenti sipaju fraze na stranom jeziku kao iz rukava.</p>
-                              <p>Sve te ljubavi objedinili smo pod imenom <strong>Alfabeto</strong>.</p>
+                              <p>Mladi smo studio koji se bavi pisanjem i prevođenjem tekstova te podukom. Obožavamo se igrati riječima, kratiti, dodavati i uređivati, a jednako nasveseli kada čujemo kako naši klijenti sipaju fraze na stranom jeziku kao iz rukava.  Sve te ljubavi objedinili smo pod imenom <strong>Alfabeto</strong>.</p>
                            </div>
                         </div>
                      </div>
