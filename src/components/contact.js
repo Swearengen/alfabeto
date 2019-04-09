@@ -42,6 +42,17 @@ class Contact extends React.Component {
                                  <p className="text-white">info@alfabeto-prijevodi.hr</p>
                               </div>
                            </li>
+                           <li>
+                              <a href="https://www.facebook.com/alfabeto.prijevodi">
+                                 <div className="contact-circle">
+                                    <i className="fa fa-facebook" aria-hidden="true"></i>
+                                 </div>
+                                 <div className="contact-text">
+                                       <h3 className="text-white">Facebook:</h3>
+                                       <p className="text-white">facebook.com/alfabeto.prijevodi</p>
+                                 </div>
+                              </a>
+                           </li>
                         </ul>
                      </div>
                   </div>
