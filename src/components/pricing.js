@@ -78,7 +78,7 @@ class Pricing extends React.Component {
                                             <h3 className="text-white">CIJENA TEČAJA STRANOG JEZIKA</h3>
                                             <ul className="text-white">
                                                 <li>cijene tečaja stranog jezika ovise vrsti tečaja i odabranom jeziku</li>
-                                                <li>cijene se računaju kao paket sati po tečaju (60 školskih sati) ili po školskom satu</li>
+                                                <li>cijene se računaju kao paket sati po tečaju (50 školskih sati) ili po školskom satu</li>
                                                 <li>cijena po školskom satu iznosi između 100,00 i 220,00 kn</li>
                                             </ul>
                                         </div>
@@ -97,7 +97,7 @@ class Pricing extends React.Component {
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>2.000,00 kn (50 školskih sati)</td>
+                                                    <td>2.500,00 kn (50 školskih sati)</td>
                                                     <td>cijena po školskom satu</td>
                                                     <td>cijena po školskom satu</td>
                                                     <td>1.800,00 kn (50 školskih sati)</td>
