@@ -123,7 +123,7 @@ class Feature extends React.Component {
                               <p><em>privucite poglede klijenata</em></p>
                               <p>Znate koliko vaš proizvod vrijedi, ali to nikako ne znate pretočiti u riječi?</p>
                               <p>Započeli ste s pisanjem, ali vas je snašla kreativna blokada?</p>
-                              <p>Odahnite, jer jedna je od naših specijalnosti i pisanje sadržaja!</p>
+                              <p>Odahnite jer jedna od naših specijalnosti je i pisanje sadržaja!</p>
                               <p>Kvalitetno i povoljno usmjeravamo svjetla reflektora baš na vas.</p>
                               <h4 style={{marginTop: '50px'}}>ŠTO SVE PIŠEMO?</h4>
                               <ul className="text-white">

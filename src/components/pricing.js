@@ -20,7 +20,7 @@ class Pricing extends React.Component {
                                         <div className="text-left">
                                             <h3 className="text-white">CIJENA PRIJEVODA</h3>
                                             <ul className="text-white">
-                                                <li>pisani prijevodi obračunavaju se prema normiranoj kartici teksta koja sadrži 1500 znakova s razmacima ili prema broju riječi</li>
+                                                <li>pisani prijevodi obračunavaju se prema normiranoj kartici teksta koja sadrži 1500 znakova bez praznina ili prema broju riječi</li>
                                                 <li>vrijeme izrade prijevoda ovisi o količini teksta, otprilike dva do tri radna dana</li>
                                                 <li>za hitne usluge prijevoda (isti dan ili sljedeći dan – ovisno o količini) obračunava se žurna tarifa, tj. dodaje se 25 % do 50 % na osnovnu cijenu</li>
                                                 <li>za hitne prijevode vikendom obračunava se žurna tarifa, tj. dodaje se 100 % na osnovnu cijenu</li>
@@ -46,8 +46,8 @@ class Pricing extends React.Component {
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>kartica od 120,00 kn</td>
-                                                    <td>kartica od 130,00 kn</td>
+                                                    <td>kartica od 100,00 kn</td>
+                                                    <td>kartica od 110,00 kn</td>
                                                     <td>kartica od 150,00 kn</td>
                                                     <td>kartica od 200,00 kn</td>
                                                 </tr>

@@ -21,7 +21,7 @@ class Contact extends React.Component {
                               </div>
                               <div className="contact-text">
                                  <h3 className="text-white">Lokacija</h3>
-                                 <p className="text-white">52100 Pula</p>
+                                 <p className="text-white">Mletačka ulica 12 (IV. kat, IDA), 52100 Pula</p>
                               </div>
                            </li>
                            <li>
