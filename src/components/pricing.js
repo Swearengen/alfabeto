@@ -35,7 +35,7 @@ class Pricing extends React.Component {
                                 </div>
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <table className="table table-bordered">
+                                        <table className="table table-bordered table-responsive">
                                             <thead>
                                                 <tr>
                                                     <th scope="col">engleski, talijanski</th>
@@ -86,7 +86,7 @@ class Pricing extends React.Component {
                                 </div>
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <table className="table table-bordered">
+                                        <table className="table table-bordered table-responsive">
                                             <thead>
                                                 <tr>
                                                     <th scope="col">Opći tečaj stranog jezika</th>
