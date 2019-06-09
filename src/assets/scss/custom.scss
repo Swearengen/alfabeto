@@ -156,6 +156,12 @@ section {
             vertical-align: middle;
             font-size: 15px;
         }
+
+        @media (max-width: 575.98px) {
+            width: 100%;
+            overflow-x: scroll;
+            display: block;
+        }
     }
 
     &.theme-bg {
